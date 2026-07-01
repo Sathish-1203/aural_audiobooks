@@ -1,13 +1,15 @@
 {
   "name": "audible-clone",
   "private": true,
+  "homepage": "https://Sathish-1203.github.io/aural_audiobooks",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^1.17.0",
